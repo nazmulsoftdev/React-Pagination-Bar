@@ -1,0 +1,25 @@
+/* Robot-container */
+
+.Robot-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .Robot-container {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+/* pagination-container */
+
+.pagination-container {
+    margin-top: 50px;
+    text-align: center;
+}
